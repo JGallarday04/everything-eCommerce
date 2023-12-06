@@ -15,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    //return view('welcome');
+    echo "Bienvenido a Everything";
 });
 
 Route::get('/dashboard', function () {
